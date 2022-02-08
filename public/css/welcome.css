@@ -1,0 +1,76 @@
+html{
+  font-size: 1.1rem;
+}
+body {
+    background : url('/img/mybackground.jpg')  no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.bottom-left {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    background-color: yellow;
+}
+
+.bottom-zero {
+    color: black;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    position: absolute;
+    /*text-indent: center;*/
+    bottom: 0px;
+    right: 0px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    font-weight:75px;
+}
+
+.links > ul,a {
+    color: #636b6f;
+    padding: 5px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 25px;
+    padding: 15px;
+}

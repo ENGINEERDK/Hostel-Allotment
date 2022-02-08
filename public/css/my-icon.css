@@ -1,0 +1,95 @@
+.made-with-mk {
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: fixed;
+  z-index: 555;
+  bottom: 27px;
+  right: 90px;
+  border-radius: 30px;
+  background-color: rgba(16, 16, 16, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 10px 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  -moz-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  -o-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+}
+.made-with-mk:hover, .made-with-mk:active, .made-with-mk:focus {
+  width: 280px;
+  color: #FFFFFF;
+  transition-duration: .55s;
+  padding: 10px 19px;
+}
+.made-with-mk:hover .made-with, .made-with-mk:active .made-with, .made-with-mk:focus .made-with {
+  opacity: 1;
+}
+.made-with-mk:hover .brand, .made-with-mk:active .brand, .made-with-mk:focus .brand {
+  left: 0;
+}
+.made-with-mk .brand,
+.made-with-mk .made-with {
+  float: left;
+}
+.made-with-mk .brand {
+  position: relative;
+  top: 4px;
+  left: -1px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 600;
+}
+.made-with-mk .made-with {
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 58px;
+  top: 14px;
+  opacity: 0;
+  margin: 0;
+  -webkit-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  -moz-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  -o-transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+  transition: 0.55s cubic-bezier(0.6, 0, 0.4, 1);
+}
+.made-with-mk .made-with strong {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+/**  CUSTOM LI ICON CSS  **/
+.custom-counter {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+.custom-counter li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: rgb(0,200,200);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+
+.terms-n-condition{
+  size: 80%;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
